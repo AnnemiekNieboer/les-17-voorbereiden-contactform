@@ -1,0 +1,24 @@
+{
+  "name": "les-17-voorbereiding---oefening-edhub-contactform",
+  "version": "1.0.0",
+  "description": "## Globale beschrijving Je gaat een sign-up pagina maken met daarin een invoerveld voor het **wachtwoord** en voor de **gebruikersnaam**. Met behulp van JavaScript ga je de waardes die de gebruiker intypt, valideren.",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnemiekNieboer/les-17-voorbereiden-contactform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnemiekNieboer/les-17-voorbereiden-contactform/issues"
+  },
+  "homepage": "https://github.com/AnnemiekNieboer/les-17-voorbereiden-contactform#readme",
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}

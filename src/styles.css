@@ -59,20 +59,20 @@ h4 {
     position: relative;
 }
 
-.registration-form-username__pseudo-error::after{
-    content: "Gebruikersnaam mag geen @ bevatten";
+.registration-form-username__error {
     display: block;
     position: absolute;
     top: 50px;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: 700;
     color: red;
 }
 
-.registration-form-password__pseudo-error::after{
-    content: "Wachtwoord moet minimaal 6 tekens lang zijn";
+.registration-form-password__error {
     display: block;
     position: absolute;
-    top: 120px;
-    font-size: 12px;
+    top: 122px;
+    font-size: 10px;
     color: red;
+    font-weight: 700;
 }
